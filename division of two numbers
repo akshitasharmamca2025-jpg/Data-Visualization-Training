@@ -1,0 +1,27 @@
+# User-defined function to calculate the division
+def calculate_division(num1, num2):
+    if num2 == 0:
+        return "Error! Division by zero is not allowed."
+    else:
+        division = num1 / num2
+        return division
+
+# Main program to get user input and display result
+def main():
+    # Input numbers from the user
+    num1 = float(input("Enter the first number: "))
+    num2 = float(input("Enter the second number: "))
+    
+    # Call the user-defined function to calculate the division
+    result = calculate_division(num1, num2)
+    
+    # Output the result
+    print(f"The division of {num1} by {num2} is: {result}")
+
+# Run the main function
+if __name__ == "__main__":
+    main()
+
+
+    # User-defined function to calculate division
+def calculate_division(num1, num2):
