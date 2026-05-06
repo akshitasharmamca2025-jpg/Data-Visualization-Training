@@ -1,0 +1,4 @@
+a=int(print("enter first nmber"))
+b=int(print("enter second number"))
+result=a/b
+print("Division=",result)

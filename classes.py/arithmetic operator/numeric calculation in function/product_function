@@ -1,0 +1,20 @@
+# User-defined function to calculate the product
+def calculate_product(num1, num2):
+    product = num1 * num2
+    return product
+
+# Main program to get user input and display result
+def main():
+    # Input numbers from the user
+    num1 = float(input("Enter the first number: "))
+    num2 = float(input("Enter the second number: "))
+    
+    # Call the user-defined function to calculate the product
+    product = calculate_product(num1, num2)
+    
+    # Output the result
+    print(f"The product of {num1} and {num2} is: {product}")
+
+# Run the main function
+if __name__ == "__main__":
+    main()

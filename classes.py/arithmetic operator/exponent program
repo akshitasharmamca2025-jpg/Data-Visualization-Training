@@ -1,0 +1,4 @@
+a=int(print("enter base nmber"))
+b=int(print("enter power"))
+result=a**b
+print("Exponent program=",result)
